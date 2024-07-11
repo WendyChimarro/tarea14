@@ -1,0 +1,28 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_ventas"
+        android:title="Ventas"
+        android:icon="@drawable/ic_venta"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_compras"
+        android:title="Compras"
+        android:icon="@drawable/ic_compra"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_lista_productos"
+        android:title="Lista de Productos"
+        android:icon="@drawable/ic_productos"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:title="Cerrar Sesión"
+        app:showAsAction="never" />
+</menu>
+
+
+

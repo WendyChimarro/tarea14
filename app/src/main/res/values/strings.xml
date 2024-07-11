@@ -1,0 +1,61 @@
+
+    <resources>
+        <!-- App Name -->
+        <string name="app_name">Mi Aplicación</string>
+
+        <!-- WelcomeActivity -->
+        <string name="welcome_message">¡Bienvenido!</string>
+        <string name="proceed_button">Continuar</string>
+
+        <!-- LoginActivity -->
+        <string name="login_title">Iniciar sesión</string>
+        <string name="login_email_hint">Correo electrónico</string>
+        <string name="login_password_hint">Contraseña</string>
+        <string name="login_button">Iniciar sesión</string>
+        <string name="register_link">Registrar</string>
+        <string name="forgot_password_link">¿Olvidaste tu contraseña?</string>
+        <string name="google_sign_in">Iniciar sesión con Google</string>
+        <string name="default_web_client_id">1:841675841810:android:70b2500e50f6f7f47f93cb</string>
+
+        <!-- RegisterActivity -->
+        <string name="register_title">Registrar</string>
+        <string name="register_email_hint">Correo electrónico</string>
+        <string name="register_password_hint">Contraseña</string>
+        <string name="register_confirm_password_hint">Confirmar contraseña</string>
+        <string name="register_button">Registrar</string>
+        <string name="already_have_account">¿Ya tienes una cuenta? Inicia sesión aquí</string>
+
+        <!-- PersonaActivity -->
+        <string name="persona_title">Actividad de Persona</string>
+        <string name="persona_name_hint">Nombre</string>
+        <string name="persona_age_hint">Edad</string>
+        <string name="save_button">Guardar</string>
+
+        <!-- ProductoActivity -->
+        <string name="producto_title">Actividad de Producto</string>
+        <string name="producto_name_hint">Nombre del producto</string>
+        <string name="producto_price_hint">Precio</string>
+        <string name="add_button">Agregar</string>
+
+        <!-- InventarioActivity -->
+        <string name="inventario_title">Actividad de Inventario</string>
+        <string name="ventas_option">Ventas</string>
+        <string name="compras_option">Compras</string>
+        <string name="productos_list_option">Lista de productos</string>
+        <string name="cerrar_sesion_option">Cerrar sesión</string>
+        <string name="no_stock_message">No hay suficiente stock disponible</string>
+
+        <!-- Other generic messages -->
+        <string name="select_option_message">Por favor, selecciona una opción</string>
+        <string name="error_message">Se produjo un error</string>
+
+        <!-- Google Sign-In Error -->
+        <string name="google_sign_in_failed">Inicio de sesión con Google fallido</string>
+
+    <string-array name="login_options">
+            <item>Persona</item>
+            <item>Producto</item>
+            <item>Inventario</item>
+        </string-array>
+
+</resources>
